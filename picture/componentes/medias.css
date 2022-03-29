@@ -1,0 +1,47 @@
+.conteudo_social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a__media{
+    align-self: center;
+    justify-self: center;
+    background-color: #FBFBF2;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+}
+.img__instagram{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+.container__img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin: 60px;
+}
+.insta:hover{
+    color: white;
+    transition-duration:500ms;
+    background-color: #3f729b;
+}
+.face:hover {
+    transition-duration:500ms;
+    color: white;
+    background-color: #006BB8;
+}
+.pin:hover{
+    transition-duration:500ms;
+    color: white;
+    background-color: #8F002B;
+}
+

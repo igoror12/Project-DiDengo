@@ -1,0 +1,271 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("../picture/blob-scene-haikei.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho{
+    background-color: #FBFBF2;
+
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+}
+.fa-user{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    padding: 10px;
+    margin: 20px 20px 0 0;
+}
+
+h1{
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 50px;
+
+    padding-top: 40px;
+
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.fa-magnifying-glass{
+    padding-right: 5px;
+}
+
+.fa-solid{
+    padding-left: 5px;
+}
+
+.conteudo__imagens{
+    display: grid;
+    align-items: center;
+    justify-items:center;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    column-gap: 30px;
+    grid-row-gap: 20px;
+
+    margin: 50px 0px;
+
+    height: 80vh;
+}
+
+.destaque__titulo{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.conteudo__img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.destaque__decoracao--asas{
+    background-image: url('../picture/pexels-rifat-gedik-7190392.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+    justify-self: self-end;
+    width: 65%;
+    min-width: 180px;
+    height: 100%;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.destaque__decoracao--plantas{
+    background-image: url('../picture/pexels-koolshooters-6627263.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+    justify-self: self-start;
+    width: 65%;
+    min-width: 180px;
+    height: 100%;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.destaque__secundario--dino {
+    background-image: url('../picture/IMG_6691.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    min-width: 180px;
+    height: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.destaque__secundario--bolsa{
+    background-image: url('../picture/pexels-arina-krasnikova-6654123.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.spacer{
+    position:relative;
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+    z-index: -1;
+}
+.layer1{
+    background-image: url("../picture/blob-scene-haikei.svg");
+}
+h2{
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 36px;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+.prod__titulo{
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 36px;
+    padding: 30px 0px;
+    margin: 180px;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.outros-produtos{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+
+    background-image: url(../picture/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+}
+.produto__titulo{
+    padding-top: 5px;
+    font-size: 30px;
+
+    margin-top: 10px;
+}
+.produto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.produto_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80%;
+    border: 5px solid rgb(255, 255, 255);
+    width: 300px;
+}
+.descricao__produto{
+    text-align: center;
+    font-size: 15px;
+}
+
+.arroba{
+    align-self: center;
+    width: 20px;
+    padding-right: 9px;
+}
+
+
+
+
+
+
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: black;
+
+
+    width: 100%;
+    height: 50px;
+
+    margin-top: 50px;
+}

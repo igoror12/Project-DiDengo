@@ -1,0 +1,48 @@
+.bnt {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    background-color: #291F1E;
+    border: 2px solid #FBFBF2;
+    color: white;
+    text-align: center;
+    align-self: center;
+    justify-self: self-end;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 90%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+#divBusca{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:100px;
+    height:32px;
+}
+
+#txtBusca{
+  background-color:transparent;
+  padding-left:5px;
+  font-size:10px;
+  border:none;
+  height:32px;
+  width:80px;
+}
+
+#btnBusca{
+  border:none;
+  height:20px;
+  border-radius:0 7px 7px 0;
+  width:20px;
+  font-weight:bold;
+  background: #FFFFFF;
+}
+
